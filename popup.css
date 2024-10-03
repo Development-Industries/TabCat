@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('TabBG.png'); /* Adding background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Center the background image */
+    color: #ffffff; /* White text for contrast */
+    text-align: center;
+    margin: 0;
+    padding: 75px;
+}
+
+.popup-container {
+    width: 300px;
+}
+
+/* Header section with logo and title side by side */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px; /* Adjust the size as needed */
+}
+
+h1 {
+    color: #222; /* Darker text for the title */
+    font-size: 32px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Button grid to organize buttons in two columns */
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+    /* Glow effect on hover */
+    .button:hover {
+        background-color: #00ffcc;
+        box-shadow: 0 0 15px #00ffcc;
+    }
